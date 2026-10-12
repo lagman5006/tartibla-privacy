@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="uz"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tartibla Maxfiylik Siyosati</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&family=Source+Serif+4:wght@400;600&display=swap">
+<style>
+/* Layout: one reading column, language switch pinned at top, sections as a plain legal doc */
+:root{
+  --bg:#F6F7FB; --surface:#FFFFFF; --fg:#151826; --muted:#5B6278; --line:#DDE1EC; --accent:#4F55D9;
+  --display:"Manrope",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --body:"Source Serif 4",Georgia,"Times New Roman",serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#0B0D14;--surface:#141824;--fg:#F2F4FA;--muted:#8B93A7;--line:#252B3D;--accent:#9298FF;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0B0D14;--surface:#141824;--fg:#F2F4FA;--muted:#8B93A7;--line:#252B3D;--accent:#9298FF;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:17px;line-height:1.65;padding-inline:16px;padding-block:0 64px}
+.wrap{max-width:680px;margin:0 auto}
+header{padding-block:48px 24px;display:flex;flex-direction:column;gap:10px;border-bottom:1px solid var(--line)}
+.brand{font-family:var(--display);font-weight:800;letter-spacing:.14em;text-transform:uppercase;font-size:12px;color:var(--accent)}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(28px,6vw,40px);line-height:1.15;margin:0;text-wrap:balance}
+.meta{font-family:var(--display);font-size:13px;color:var(--muted)}
+nav{display:flex;gap:8px;flex-wrap:wrap;margin-top:6px}
+nav a{font-family:var(--display);font-weight:600;font-size:14px;color:var(--fg);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:6px 14px;background:var(--surface)}
+nav a:hover,nav a:focus-visible{border-color:var(--accent);color:var(--accent);outline:none}
+section{padding-block:28px;display:flex;flex-direction:column;gap:4px}
+section+section{border-top:1px solid var(--line)}
+h2{font-family:var(--display);font-weight:800;font-size:22px;margin:8px 0 4px}
+h3{font-family:var(--display);font-weight:600;font-size:16px;margin:18px 0 2px}
+p,li{max-width:65ch}
+ul{padding-left:1.2em;margin:4px 0}
+li{margin:3px 0}
+.box{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:8px 0}
+code,.mail{font-family:var(--display);font-weight:600;user-select:all;word-break:break-all}
+a{color:var(--accent)}
+</style>
+
+<div class="wrap">
+<header>
+  <div class="brand">Tartibla</div>
+  <h1>Maxfiylik siyosati · Privacy Policy</h1>
+  <div class="meta">Kuchga kirgan sana / Effective date: 12.10.2026</div>
+  <nav><a href="#uz">O‘zbekcha</a><a href="#en">English</a></nav>
+</header>
+
+<section id="uz">
+  <h2>O‘zbekcha</h2>
+  <p>Tartibla — uyg‘onish va uxlash vaqtini belgilash, kunni rejalashtirish va natijalarni kuzatish uchun iOS ilovasi. Bu sahifa ilova qaysi ma’lumotlarni yig‘ishi, ularni qanday ishlatishi va siz ularni qanday o‘chirishingiz mumkinligini tushuntiradi.</p>
+
+  <h3>Telefoningizda qoladigan ma’lumotlar</h3>
+  <p>Kun tartibi, vazifalar, natijalar statistikasi, budilniklar, fokus taymeri tarixi va ilova limiti sozlamalari faqat qurilmangizda saqlanadi va serverga yuborilmaydi. Harakat sensori faqat o‘tirib-turish missiyasida takrorlarni sanash uchun ishlatiladi, ma’lumot qurilmadan chiqmaydi. Kamera va mikrofon ishlatilmaydi.</p>
+
+  <h3>Serverga yuboriladigan ma’lumotlar</h3>
+  <p>Apple yoki Google orqali kirganingizda quyidagilar himoyalangan serverimizda (Supabase) saqlanadi:</p>
+  <ul>
+    <li>email manzil va ism (Apple yoki Google bergan bo‘lsa);</li>
+    <li>kirish usuli (Apple yoki Google);</li>
+    <li>tanishuv savollaridagi javoblar: uyg‘onish va uxlash vaqti, maqsadlar, budilnik missiyasi turi;</li>
+    <li>promo kod (agar kiritsangiz);</li>
+    <li>platforma, ilova versiyasi, ro‘yxatdan o‘tgan va oxirgi marta ochilgan vaqt.</li>
+  </ul>
+  <p>Bu ma’lumotlar hisobingizni yuritish, ilovani yaxshilash uchun umumiy statistika va hamkor blogerlar promo kodlari hisobini yuritish uchun ishlatiladi.</p>
+  <p><b>Hisobsiz davom etish</b> rejimida serverga hech qanday ma’lumot yuborilmaydi — hammasi faqat telefoningizda qoladi.</p>
+
+  <h3>Biz nima qilmaymiz</h3>
+  <ul>
+    <li>Ma’lumotlaringizni sotmaymiz va reklama uchun ishlatmaymiz.</li>
+    <li>Sizni boshqa ilova yoki saytlarda kuzatmaymiz (tracking yo‘q), reklama identifikatoridan foydalanmaymiz.</li>
+    <li>Uchinchi tomon analitika yoki reklama SDK’lari ishlatilmaydi.</li>
+  </ul>
+
+  <h3>Uchinchi tomon xizmatlari</h3>
+  <ul>
+    <li><b>Apple</b> va <b>Google</b> — tizimga kirish uchun. Ular o‘z maxfiylik siyosatlariga muvofiq ishlaydi.</li>
+    <li><b>Supabase</b> — yuqorida sanalgan hisob ma’lumotlarini saqlovchi server xizmati.</li>
+  </ul>
+
+  <h3>Hisobni va ma’lumotlarni o‘chirish</h3>
+  <p>Ilovada <b>Profil → Hisobni o‘chirish</b> tugmasini bosing. Hisobingiz va serverdagi barcha ma’lumotlaringiz darhol o‘chiriladi. Telefondagi ma’lumotlar ilovani o‘chirganda yo‘qoladi. Shuningdek, quyidagi manzilga yozib ham o‘chirishni so‘rashingiz mumkin.</p>
+
+  <h3>Bolalar</h3>
+  <p>Ilova 13 yoshdan kichik bolalarga mo‘ljallanmagan va ulardan ataylab ma’lumot yig‘maymiz.</p>
+
+  <h3>O‘zgarishlar va aloqa</h3>
+  <p>Siyosat o‘zgarsa, shu sahifa yangilanadi va sana o‘zgaradi. Savollar uchun:</p>
+  <div class="box">Email: <span class="mail">asliddin5006@gmail.com</span></div>
+</section>
+
+<section id="en">
+  <h2>English</h2>
+  <p>Tartibla is an iOS app for setting wake-up and bedtime, planning your day hour by hour and tracking your progress. This page explains what data the app collects, how it is used, and how you can delete it.</p>
+
+  <h3>Data that stays on your device</h3>
+  <p>Your schedule, tasks, progress statistics, alarms, focus timer history and app limit settings are stored only on your device and are never sent to our server. The motion sensor is used only to count squats during the squat mission; this data never leaves the device. The camera and microphone are not used.</p>
+
+  <h3>Data sent to our server</h3>
+  <p>When you sign in with Apple or Google, the following is stored on our secured server (Supabase):</p>
+  <ul>
+    <li>email address and name (if provided by Apple or Google);</li>
+    <li>sign-in method (Apple or Google);</li>
+    <li>your onboarding answers: wake-up and bedtime, goals, alarm mission type;</li>
+    <li>promo code (if you enter one);</li>
+    <li>platform, app version, sign-up date and last opened time.</li>
+  </ul>
+  <p>This data is used to operate your account, to produce aggregate statistics that help us improve the app, and to count sign-ups for partner promo codes.</p>
+  <p>If you choose <b>Continue without an account</b>, nothing is sent to our server — all data stays on your device.</p>
+
+  <h3>What we do not do</h3>
+  <ul>
+    <li>We do not sell your data or use it for advertising.</li>
+    <li>We do not track you across other apps or websites and do not use the advertising identifier.</li>
+    <li>No third-party analytics or advertising SDKs are included.</li>
+  </ul>
+
+  <h3>Third-party services</h3>
+  <ul>
+    <li><b>Apple</b> and <b>Google</b> for sign-in, under their own privacy policies.</li>
+    <li><b>Supabase</b> as the server that stores the account data listed above.</li>
+  </ul>
+
+  <h3>Deleting your account and data</h3>
+  <p>In the app, tap <b>Profile → Delete account</b>. Your account and all of your server data are deleted immediately. On-device data is removed when you delete the app. You can also request deletion by email.</p>
+
+  <h3>Children</h3>
+  <p>The app is not directed at children under 13, and we do not knowingly collect data from them.</p>
+
+  <h3>Changes and contact</h3>
+  <p>If this policy changes, this page will be updated along with the date above. Questions:</p>
+  <div class="box">Email: <span class="mail">asliddin5006@gmail.com</span></div>
+</section>
+</div>
+
+</html>
