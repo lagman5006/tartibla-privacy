@@ -37,16 +37,27 @@ a{color:var(--accent)}
 <header>
   <div class="brand">Tartibla</div>
   <h1>Maxfiylik siyosati · Privacy Policy</h1>
-  <div class="meta">Kuchga kirgan sana / Effective date: 22.10.2026</div>
+  <div class="meta">Kuchga kirgan sana / Effective date: 26.10.2026</div>
   <nav><a href="#uz">O‘zbekcha</a><a href="#en">English</a></nav>
 </header>
 
 <section id="uz">
   <h2>O‘zbekcha</h2>
-  <p>Tartibla — uyg‘onish va uxlash vaqtini belgilash, kunni rejalashtirish va natijalarni kuzatish uchun iOS ilovasi. Bu sahifa ilova qaysi ma’lumotlarni yig‘ishi, ularni qanday ishlatishi va siz ularni qanday o‘chirishingiz mumkinligini tushuntiradi.</p>
+  <p>Tartibla — uyg‘onish va uxlash vaqtini belgilash, kunni rejalashtirish va natijalarni kuzatish uchun iOS va Android ilovasi (App Store va Google Play). Bu sahifa ilova qaysi ma’lumotlarni yig‘ishi, ularni qanday ishlatishi va siz ularni qanday o‘chirishingiz mumkinligini tushuntiradi.</p>
 
   <h3>Telefoningizda qoladigan ma’lumotlar</h3>
-  <p>Kun tartibi, vazifalar, natijalar statistikasi, budilniklar va ilova limiti, uyqu rejimi hamda vazifa vaqtidagi bloklash sozlamalari faqat qurilmangizda saqlanadi va serverga yuborilmaydi. Ilovalarni cheklash Apple Screen Time orqali ishlaydi: tanlangan ilovalarni Apple shifrlangan belgilar ko‘rinishida beradi, biz ilova nomlarini va ulardagi vaqtingizni ko‘rmaymiz. Harakat sensori faqat o‘tirib-turish missiyasida takrorlarni sanash uchun ishlatiladi, ma’lumot qurilmadan chiqmaydi. Kamera va mikrofon ishlatilmaydi.</p>
+  <p>Kun tartibi, vazifalar, natijalar statistikasi, budilniklar va ilova limiti, uyqu rejimi hamda vazifa vaqtidagi bloklash sozlamalari faqat qurilmangizda saqlanadi va serverga yuborilmaydi. Ilovalarni cheklash (faqat iOS) Apple Screen Time orqali ishlaydi: tanlangan ilovalarni Apple shifrlangan belgilar ko‘rinishida beradi, biz ilova nomlarini va ulardagi vaqtingizni ko‘rmaymiz. Harakat sensori faqat o‘tirib-turish missiyasida takrorlarni sanash uchun ishlatiladi, ma’lumot qurilmadan chiqmaydi. Kamera, mikrofon, joylashuv va kontaktlar ishlatilmaydi.</p>
+
+  <h3>Android ruxsatlari</h3>
+  <ul>
+    <li><b>Bildirishnomalar</b> — vazifa, uxlash va “Tugatdingizmi?” eslatmalari uchun.</li>
+    <li><b>Aniq vaqtli budilnik</b> (USE_EXACT_ALARM) — budilnik siz tanlagan daqiqada chalinishi uchun; budilnik ilovaning asosiy funksiyasi.</li>
+    <li><b>To‘liq ekranli bildirishnoma</b> — budilnik qulflangan ekranda to‘liq oynada ochilishi uchun.</li>
+    <li><b>Fon xizmati (media)</b> — budilnik ovozini siz to‘xtatguncha chalish uchun; faqat budilnik chalinayotganda ishlaydi.</li>
+    <li><b>Ishga tushganda boshlash</b> — telefon qayta yoqilganda budilniklarni tiklash uchun.</li>
+    <li><b>Tebranish</b> — budilnik va missiya paytida.</li>
+  </ul>
+  <p>Bu ruxsatlar orqali hech qanday ma’lumot qurilmadan tashqariga yuborilmaydi.</p>
 
   <h3>Serverga yuboriladigan ma’lumotlar</h3>
   <p>Apple yoki Google orqali kirganingizda quyidagilar himoyalangan serverimizda (Supabase) saqlanadi:</p>
@@ -58,7 +69,7 @@ a{color:var(--accent)}
     <li>platforma, ilova versiyasi, ro‘yxatdan o‘tgan va oxirgi marta ochilgan vaqt.</li>
   </ul>
   <p>Bu ma’lumotlar hisobingizni yuritish, ilovani yaxshilash uchun umumiy statistika va hamkor blogerlar promo kodlari hisobini yuritish uchun ishlatiladi.</p>
-  <p><b>Hisobsiz davom etish</b> rejimida serverga hech qanday ma’lumot yuborilmaydi — hammasi faqat telefoningizda qoladi.</p>
+  <p><b>Hisobsiz davom etish</b> rejimida (Android’da hozircha faqat shu rejim mavjud) serverga hech qanday shaxsiy ma’lumot yuborilmaydi — hammasi faqat telefoningizda qoladi. Promo kod kiritsangiz, u faqat haqiqiyligini tekshirish uchun serverga yuboriladi.</p>
 
   <h3>Biz nima qilmaymiz</h3>
   <ul>
@@ -86,10 +97,21 @@ a{color:var(--accent)}
 
 <section id="en">
   <h2>English</h2>
-  <p>Tartibla is an iOS app for setting wake-up and bedtime, planning your day hour by hour and tracking your progress. This page explains what data the app collects, how it is used, and how you can delete it.</p>
+  <p>Tartibla is an iOS and Android app (App Store and Google Play) for setting wake-up and bedtime, planning your day hour by hour and tracking your progress. This page explains what data the app collects, how it is used, and how you can delete it.</p>
 
   <h3>Data that stays on your device</h3>
-  <p>Your schedule, tasks, progress statistics, alarms, and app limit, sleep mode and task-time blocking settings are stored only on your device and are never sent to our server. App blocking uses Apple Screen Time: Apple provides the selected apps as opaque tokens, so we never see app names or your usage time. The motion sensor is used only to count squats during the squat mission; this data never leaves the device. The camera and microphone are not used.</p>
+  <p>Your schedule, tasks, progress statistics, alarms, and app limit, sleep mode and task-time blocking settings are stored only on your device and are never sent to our server. App blocking (iOS only) uses Apple Screen Time: Apple provides the selected apps as opaque tokens, so we never see app names or your usage time. The motion sensor is used only to count squats during the squat mission; this data never leaves the device. The camera, microphone, location and contacts are not used.</p>
+
+  <h3>Android permissions</h3>
+  <ul>
+    <li><b>Notifications</b> — for task, bedtime and “Did you finish?” reminders.</li>
+    <li><b>Exact alarms</b> (USE_EXACT_ALARM) — so the alarm rings at the exact minute you chose; the alarm clock is the app’s core feature.</li>
+    <li><b>Full-screen notifications</b> — to show the ringing alarm full screen on the lock screen.</li>
+    <li><b>Foreground service (media playback)</b> — to keep playing the alarm sound until you stop it; it runs only while an alarm is ringing.</li>
+    <li><b>Run at startup</b> — to restore your alarms after the phone restarts.</li>
+    <li><b>Vibration</b> — during alarms and missions.</li>
+  </ul>
+  <p>No data leaves your device through these permissions.</p>
 
   <h3>Data sent to our server</h3>
   <p>When you sign in with Apple or Google, the following is stored on our secured server (Supabase):</p>
@@ -101,7 +123,7 @@ a{color:var(--accent)}
     <li>platform, app version, sign-up date and last opened time.</li>
   </ul>
   <p>This data is used to operate your account, to produce aggregate statistics that help us improve the app, and to count sign-ups for partner promo codes.</p>
-  <p>If you choose <b>Continue without an account</b>, nothing is sent to our server — all data stays on your device.</p>
+  <p>If you choose <b>Continue without an account</b>, (currently the only mode on Android), no personal data is sent to our server — all data stays on your device. If you enter a promo code, it is sent to the server only to check that it is valid.</p>
 
   <h3>What we do not do</h3>
   <ul>
